@@ -1,0 +1,428 @@
+body{
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+
+h1{
+    font-family: gitan-latin, sans-serif;
+    font-weight: 200;
+    font-size: 46px;
+    font-style: normal;
+    color: black; 
+    text-decoration: none;
+}
+
+a{
+    color: black ;
+    text-decoration: none;
+}
+
+p>a.bookcolor:hover{
+    color: rgb(204, 152, 102);  
+    font-style: oblique
+}
+
+p>a.logocolor:hover{
+    color: rgb(255, 102, 51);  
+    font-style: oblique
+}
+
+p>a.fontcolor:hover{
+    color: rgb(80, 127, 47);  
+    font-style: oblique
+}
+
+p>a.flyercolor:hover{
+    color: rgb(97, 168, 204);  
+    font-style: oblique
+}
+
+p>a{
+    text-decoration: none;
+    color:black;    
+    font-style: oblique;
+}
+
+a.subpage{
+    filter: blur(1px);
+}
+
+.wrapper{
+    width: 100%;
+}    
+
+@media(max-width: 1139px) {
+    #indeximg {
+        width:550px
+    }
+    .font, .flyer, .logo{
+        margin-bottom: 20px;
+    }
+    .kolom2{
+        float: left;
+        width: 50%;
+        margin-left: 60% ;
+        position: absolute;
+        height: 100%;
+    } 
+
+    h2, p{
+        width: 35%;
+        margin-right: 30px;
+    }
+
+    h3{
+        visibility: hidden;
+    }
+    .kolom1{
+        float: left;
+        width: 40%;
+        margin: 14px;
+        margin-left: 140px;
+    }
+}
+
+@media(min-width: 1140px) {
+    #indeximg {
+        width:1124px
+    }
+    .flyer{
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .font{
+        margin-bottom: 20px;
+    }
+    .logo{
+        margin-right: 20px;
+    }
+    .kolom2{
+        float: left;
+        width: 50%;
+        margin-left: 60% ;
+        position: absolute;
+        height: 100%;
+    } 
+
+    h2, p{
+        width: 35%;
+        margin-right: 30px;
+    }
+
+    h3{
+        visibility: hidden;
+    }
+
+    .kolom1{
+        float: left;
+        width: 40%;
+        margin: 14px;
+        margin-left: 140px;
+    }
+}
+
+
+@media(min-width: 950px){
+    .kolom2{
+        float: left;
+        width: 50%;
+        margin-left: 60% ;
+        position: absolute;
+        height: 100%;
+    } 
+
+    h2, p{
+        width: 35%;
+        margin-right: 30px;
+    }
+
+    h3{
+        visibility: hidden;
+    }
+
+    .kolom1{
+        float: left;
+        width: 40%;
+        margin: 14px;
+        margin-left: 140px;
+    }
+
+}
+
+@media(max-width: 950px){
+    .kolom1{
+        width: 100%;
+    }
+   
+    p{
+        top: -100px;
+    }
+
+    .kolom2{
+        float: left;
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        position: relative;
+        height: 100%;
+        top: -80px;
+    } 
+    p{
+        min-width: 90%;
+    max-width: 90%;
+    }
+
+    .kolom1{
+        float: left;
+        width: 40%;
+        margin: 14px;
+        margin-left: 140px;
+    }
+}
+
+
+@media(min-width: 550px) {
+    .nav{
+        height: 250px;
+        width: 170px;
+        position: fixed;
+        z-index: 10;
+        top: 0px;
+        left: 25px;
+        overflow-x: hidden;
+        padding-top: 0px;
+        font-family: gitan-latin, sans-serif;
+        font-weight: lighter;
+        font-size: 17px;
+        font-style: normal;
+        color: black;
+        text-decoration: none;
+        line-height: 30px;
+    }
+    .flyer, .logo, .font, .book{
+        width: 550px;
+    }
+    #indeximg{
+        text-align: center;
+        margin-bottom: 20px;
+        filter: none;
+    }
+
+    .first, .second, .third, .fourth{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .first{
+        margin-top: 20px;
+    }
+    p{
+        top: -100px;
+    }
+
+
+    }
+
+
+
+@media(max-width: 550px) {
+    .im1, .im2, .im3, .im4{
+        margin-top: 230px;
+    }
+    .nav{
+        position: absolute ;
+        height: 230px;
+        width: 100%;
+        text-align: center;
+        font-family: gitan-latin, sans-serif;
+        font-weight: lighter;
+        font-size: 17px;
+        font-style: normal;
+        color: black;
+        text-decoration: none;
+        line-height: 30px;
+    }
+    .flyer, .logo, .font, .book{
+        width: 100%;
+        margin-right: 0px;
+        padding-right: 0px;
+        padding: 0;
+        text-align: center;  }
+
+        .flyer, .logo, .font {
+            margin-bottom: 20px;
+            padding-right: 0px; }
+    .logo{
+        margin-bottom: 20px;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+
+        #indeximg{
+            text-align: center;
+            margin: 0px;
+            width: 90%;
+        } 
+
+    
+    
+    .logo{
+        margin-right: 0px;
+    }
+
+    .kolom1{
+        width: 90%;
+        margin:0px;
+    }
+
+    .first{
+        margin-top: 230px;
+    }
+
+    .first, .second, .third, .fourth{
+        width: 100%;
+        padding-bottom: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+
+    }
+  .kolom2{
+      width: 100%;
+  }
+
+  .kolom2{
+    float: left;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    height: 100%;
+    top: -80px;
+    text-align: center;
+} 
+
+
+p, h2{
+    min-width: 90%;
+max-width: 90%;
+text-align: center;
+}
+}
+   
+    
+.wrapper{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#indeximg{
+    margin: 0 auto;
+}
+
+
+div:hover > a>img{
+    filter: blur(6px);
+}
+
+div:hover > a>img:hover{
+    filter: none;
+}
+
+
+h2{
+    font-family: gitan-latin, sans-serif;
+    font-weight: 120;
+    font-size: 30px;
+    font-style: normal;
+    color: black;
+    line-height: 1.2em;
+   
+}
+
+h3{
+    font-family: gitan-latin, sans-serif;
+    font-weight: 120;
+    font-size: 30px;
+    font-style: normal;
+    color: black;
+    line-height: 1.2em;
+    min-width: 147px;
+    max-width: 400px;
+}
+
+p{
+    font-family: Helvetica, sans-serif;   
+    font-size: 16px; 
+    font-weight: lighter ;
+    color: black;
+    line-height: 1.3em;
+    
+}
+
+
+
+
+
+
+
+
+.gif { 
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+@keyframes im1-animation {
+    0%   { z-index: 1; }
+    24% { z-index: 1; }
+    25% { z-index: 0; }
+}
+@keyframes im2-animation {
+    0%   { z-index: 0; }
+    24%   { z-index: 0; }
+    25%   { z-index: 1; }
+    49%   { z-index: 1; }
+    50% { z-index: 0; }
+}
+@keyframes im3-animation {
+    0%   { z-index: 0; }
+    49%   { z-index: 0; }
+    50%   { z-index: 1; }
+    74%   { z-index: 1; }
+    75% { z-index: 0; }
+}
+@keyframes im4-animation {
+    0%   { z-index: 0; }
+    74%   { z-index: 0; }
+    75%   { z-index: 1; }
+    99% { z-index: 1; }
+    100% { z-index: 0; }
+}
+
+.im1 {
+    animation: im1-animation 5s infinite;
+    position: relative;
+}
+.im2 {
+    animation: im2-animation 5s infinite;
+}
+.im3 {
+    animation: im3-animation 5s infinite;
+}
+.im4 {
+    animation: im4-animation 5s infinite;
+}
+
+
+
+header>ul{
+    display: inline;
+}
+
+
+
